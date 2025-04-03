@@ -50,7 +50,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         echo "Insert error: " . $e->getMessage();
     }
 
-    exit(); // Prevent redirect while debugging
+    exit(); // End the script after processing the form
 }
 ?>
 
