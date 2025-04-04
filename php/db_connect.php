@@ -2,7 +2,7 @@
 $host = 'localhost';
 $db = 'subscriptions_db';
 $user = 'root';
-$pass = ''; // Leave blank if using XAMPP default
+$pass = ''; 
 
 try {
     $conn = new PDO("mysql:host=$host;dbname=$db", $user, $pass);
