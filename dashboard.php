@@ -5,7 +5,7 @@ if (!isset($_SESSION['user_id'])) {
     exit();
 }
 ?>
-
+<p><a href="payments.php">View Payment History</a></p>
 <!DOCTYPE html>
 <html>
 <head>
